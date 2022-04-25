@@ -5,6 +5,7 @@ import minify_html
 
 import requests
 from feedgen.entry import FeedEntry
+from feedparser import FeedParserDict
 from readability import Document
 from bs4 import BeautifulSoup as bs, Tag
 import feedparser
@@ -57,6 +58,7 @@ def setup_feed(source_feed, url) -> FeedGenerator:
     fg.subtitle(source_feed.feed.subtitle)
     fg.link(href=url, rel='self')
     fg.language(source_feed.feed.language)
+    fg.updated(source_feed.updated)
 
     return fg
 
@@ -72,12 +74,8 @@ def to_fe(item: dict) -> FeedEntry:
     return fe
 
 
-def get_items(url: str):
-    print('📖 getting all items', url)
-    feed_id = url.split('/')[-1]
-    db = TinyDB(f'{feed_id}.json')
-
-    source_feed = feedparser.parse(url)
+def get_items(source_feed: FeedParserDict, db: TinyDB):
+    print('📖 getting all items', source_feed.href)
 
     for entry in source_feed.entries:
         Item = Query()
@@ -99,18 +97,17 @@ def get_items(url: str):
             "link": entry.link,
             "summary": summary,
             "author": entry.authors[0],
-            "published": entry.published
+            "published": entry.published,
+            "status": prefix,
         }
         db.insert(item)
 
 
-def generate_feed(url: str):
-    print('📝 generating feed', url)
-    feed_id = url.split('/')[-1]
-    db = TinyDB(f'{feed_id}.json')
-    source_feed = feedparser.parse(url)
+def generate_feed(source_feed: FeedParserDict, db: TinyDB):
+    print('📝 generating feed', source_feed.href)
 
-    fg = setup_feed(source_feed, url)
+    fg = setup_feed(source_feed, source_feed.href)
+
     for item in db.all():
         fg.add_entry(to_fe(item))
 
@@ -121,5 +118,10 @@ if __name__ == '__main__':
 
     for feed_url in feeds:
         print(feed_url)
-        get_items(feed_url)
-        generate_feed(feed_url)
+
+        feed_id = feed_url.split('/')[-1]
+        db = TinyDB(f'{feed_id}.json')
+        source_feed = feedparser.parse(feed_url)
+
+        get_items(source_feed, db)
+        generate_feed(source_feed, db)
