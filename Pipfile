@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+readability-lxml = "*"
+requests = "*"
+beautifulsoup4 = "*"
+feedparser = "*"
+minify-html = "*"
+feedgen = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.9"
