@@ -10,6 +10,7 @@ beautifulsoup4 = "*"
 feedparser = "*"
 minify-html = "*"
 feedgen = "*"
+tinydb = "*"
 
 [dev-packages]
 black = "*"

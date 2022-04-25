@@ -19,25 +19,28 @@ def get_tag_html(tag: Tag):
 
 
 @lru_cache
-def get_summary(url: str) -> Tuple[bool, str]:
+def get_summary(url: str) -> Tuple[str, str]:
     response = requests.get(url)
 
-    soup = bs(response.text, "html.parser")
-    is_plus_content = (
-            "Kostenlos bis"
-            in soup.find(
-        name="span", attrs={"class": "pdb-parts-paidcontent-freeuntilbadge"}
-    ).text
-    )
+    try:
+        soup = bs(response.text, "html.parser")
+        plus_open = "pdb-parts-paidcontent-freeuntilbadge_close"
+        plus_close = "pdb-parts-paidcontent-freeuntilbadge_open"
 
-    if is_plus_content:
-        print("💸")
+        prefix = "free"
+        if len(soup.findAll("span", {"class": plus_open})) > 0:
+            prefix = "+ open"
+        elif len(soup.findAll("span", {"class": plus_close})) > 0:
+            prefix = "+ closed"
 
-    doc = Document(response.text)
-    soup = bs(doc.summary(), "html.parser")
-    summary = get_tag_html(soup.find(name="div", attrs={"class": "pdb-richtext-field"}))
-    return is_plus_content, minify_html.minify(summary)
+        print(prefix, url)
 
+        doc = Document(response.text)
+        soup = bs(doc.summary(), "html.parser")
+        summary = get_tag_html(soup.find(name="div", attrs={"class": "pdb-richtext-field"}))
+        return prefix, minify_html.minify(summary)
+    except:
+        return prefix, ""
 
 # <item>
 #     <title>Unbekannte schmieren in Roßwein gegen die Polizei</title>
@@ -79,7 +82,11 @@ fg.subtitle(source_feed.feed.subtitle)
 fg.link(href=url, rel='self')
 fg.language(source_feed.feed.language)
 
+done = set()
 for entry in source_feed.entries:
+    if entry.guid in done:
+        continue
+
     is_premium, summary = get_summary(entry.link)
     title = entry.title if not is_premium else f'💸 - {entry.title}'
 
@@ -89,6 +96,8 @@ for entry in source_feed.entries:
     fe.link(href=entry.link)
     fe.summary(summary)
     fe.author(entry.authors[0])
-    print(fe)
+
+    done.add(entry.guid)
+    print(fe.id())
 
 fg.atom_file('atom.xml')
