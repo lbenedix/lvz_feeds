@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de-DE">
   <id>https://www.lvz.de/rss/feed/lvz_leipzig</id>
   <title>LVZ.de - Alle Meldungen aus dem Ressort Leipzig</title>
-  <updated>2022-04-26T08:39:37+00:00</updated>
+  <updated>2022-04-26T14:38:34+00:00</updated>
   <author>
     <name>Content Synchronisierung</name>
     <email>mol-lvz@madsack.de</email>
@@ -11,9 +11,57 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <logo>https://www.lvz.de/bundles/molasset/images/sites/desktop/lvz/apple-touch-icon.png</logo>
   <entry>
+    <id>41b6f592-c46d-11ec-bd53-fda28e59ff86</id>
+    <title>🔒 - Kritik an Baustelle in Leipzig: Wirt beklagt fehlende Kommunikation aus dem Rathaus</title>
+    <updated>2022-04-26T14:41:18.921593+00:00</updated>
+    <author>
+      <name>LVZ Methode</name>
+      <email>mol-lvz@madsack.de</email>
+    </author>
+    <link href="http://www.lvz.de/Leipzig/Lokales/Baustelle-in-Leipzig-Wirt-vom-Heimathafen-Koe-auf-der-Koenneritzstrasse-kritisiert-die-Stadt" rel="alternate"/>
+    <summary>&lt;p&gt;Eine Baustelle im Leipziger Westen sorgt für Unmut bei einem Anliegern. Über die weiträumige Sperre auf einer Seite der Könneritzstraße sei man nicht rechtzeitig informiert worden, so die Kritik. Der Wirt der Gaststätte „Heimathafen Kö“ bemängelt auch den Zeitraum.&lt;/p&gt;&lt;span&gt;&lt;/span&gt;</summary>
+    <published>2022-04-26T10:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>91ccaeb0-c54d-11ec-825e-f5cc19365745</id>
+    <title>🔒 - Sicherheitslücke bei der Uni-Bibliothek: 70.000 Datensätze betroffen</title>
+    <updated>2022-04-26T14:41:18.921467+00:00</updated>
+    <author>
+      <name>LVZ Methode</name>
+      <email>mol-lvz@madsack.de</email>
+    </author>
+    <link href="http://www.lvz.de/Leipzig/Lokales/Uni-Bibliothek-Leipzig-Unbekannte-haben-Nutzerdaten-abgefangen-70.000-Konten-betroffen" rel="alternate"/>
+    <summary>&lt;p&gt;Externe haben auf 70.000 bei der Universitätsbibliothek Leipzig gespeicherte Datensätze zugegriffen. Betroffen sind vor allem Daten von Nutzerinnen und Nutzern. Die Universität hat Anzeige gestellt.&lt;/p&gt;&lt;span&gt;&lt;/span&gt;</summary>
+    <published>2022-04-26T11:31:11+00:00</published>
+  </entry>
+  <entry>
+    <id>d39ba9f2-c554-11ec-825e-f5cc19365745</id>
+    <title>🔒 - Bauarbeiten am Liviaplatz im Leipziger Waldstraßenviertel beginnen</title>
+    <updated>2022-04-26T14:41:18.921342+00:00</updated>
+    <author>
+      <name>LVZ Methode</name>
+      <email>mol-lvz@madsack.de</email>
+    </author>
+    <link href="http://www.lvz.de/Leipzig/Lokales/Leipzig-Baustart-am-Liviaplatz-im-Waldstrassenviertel" rel="alternate"/>
+    <summary>&lt;p&gt;Der Liviaplatz im Leipziger Waldstraßenviertel wird ab Mittwoch im Zuge eines Modellprojekts umgestaltet. Ziel ist es laut Stadt, den Platz direkt am Rosental für die Anwohnerinnen und Anwohner attraktiver zu gestalten. Um die Aufenthaltsqualität im Kreuzungsbereich zwischen Feuerbach-, Tschaikowski- und Liviastraße zu verbessern, wird die Fläche für den Durchgangsverkehr gesperrt. Das Platzinnere wird durch Poller abgetrennt und Parkbuchten werden markiert. Zusätzlich sollen Bänke, Blumenkübel und aufgemalte Bewegungsspiele Jung und Alt zum Verweilen einladen.&lt;p&gt;Eigentlich war der Baustart für den vergangenen Herbst geplant. Weil für die Bauleistungen ab Oktober 2021 &lt;a class=pdb-article-link href=/Leipzig/Lokales/Liviaplatz-im-Leipziger-Waldstrassenviertel-wird-erst-2022-umgestaltet&gt;keine Angebote von Firmen eingegangen waren&lt;/a&gt;, musste die Ausschreibung in einem zweiten Anlauf wiederholt werden. Nun starten die Umbauarbeiten am 27. April und sollen nach Angaben der Stadt voraussichtlich am 13. Mai abgeschlossen sein. Die Kosten betragen rund 80.000 Euro.&lt;/p&gt;&lt;a id=eztoc_1_1&gt;&lt;/a&gt;&lt;h2&gt;Modellprojekt läuft zunächst drei Jahre&lt;/h2&gt;&lt;p&gt;An dem &lt;a class=pdb-article-link href=/Leipzig/Lokales/Der-Liviaplatz-im-Waldstrassenviertel-wird-umgestaltet&gt;Modellprojekt wurden auch Bürgerinnen und Bürger beteiligt&lt;/a&gt;. Sie konnten über die Gestaltung der Platzinnenfläche abstimmen und hatten die Wahl zwischen drei Optionen, die der Stadtbezirksbeirat Mitte für die Variante „geschlossene Platzfläche“ erarbeitet hatte. Wie die Stadt mitteilt, wird nun die von Bürgerinnen und Bürgern favorisierte Variante 3 umgesetzt.&lt;p&gt;Das Modellprojekt ist zunächst auf drei Jahre angelegt. Nach Ablauf der Projektlaufzeit wird über eine finale bauliche Lösung für den Liviaplatz entschieden. Aus der temporären Neugestaltung könnte dann auch eine dauerhafte Lösung und endgültige bauliche Umgestaltung werden.&lt;p&gt;&lt;em&gt;Von LVZ/lg&lt;/em&gt;</summary>
+    <published>2022-04-26T12:41:05+00:00</published>
+  </entry>
+  <entry>
+    <id>0f96e0ac625407a1e5ad48bef847f0e5</id>
+    <title>🔒 - Coronavirus: Aktuelle Infektionslage in Sachsen, Leipzig und Deutschland</title>
+    <updated>2022-04-26T14:41:18.921215+00:00</updated>
+    <author>
+      <name>Matthias Puppe</name>
+      <email>mol-lvz@madsack.de</email>
+    </author>
+    <link href="http://www.lvz.de/Leipzig/Lokales/Corona-in-Sachsen-Aktuelle-Zahlen-zu-Infektionen-Inzidenz-und-Impfungen-am-26.4.2022" rel="alternate"/>
+    <summary>&lt;p&gt;Wie viele Corona-Fälle gibt es aktuell in Sachsen? Wie viele Menschen sind bislang mit oder an dem Virus gestorben? Wir tragen jeden Tag die aktuellen Zahlen und Fakten aus Leipzig, Sachsen und Deutschland zum Ausmaß der Pandemie zusammen und haben diese in 14 Grafiken aufbereitet.</summary>
+    <published>2022-04-26T08:40:00+00:00</published>
+  </entry>
+  <entry>
     <id>7ebbc362-c474-11ec-825e-f5cc19365745</id>
     <title>🔒 - Wackelt das 9-Euro-Ticket?</title>
-    <updated>2022-04-26T08:46:32.315032+00:00</updated>
+    <updated>2022-04-26T14:41:18.921088+00:00</updated>
     <author>
       <name>LVZ Methode</name>
       <email>mol-lvz@madsack.de</email>
@@ -25,7 +73,7 @@
   <entry>
     <id>c4560ef4-c47f-11ec-bd53-fda28e59ff86</id>
     <title>🔒 - Festsaal im Alten Rathaus erstrahlt wieder – und lockt mit freiem Eintritt</title>
-    <updated>2022-04-26T08:46:32.314908+00:00</updated>
+    <updated>2022-04-26T14:41:18.920958+00:00</updated>
     <author>
       <name>LVZ Methode</name>
       <email>mol-lvz@madsack.de</email>
@@ -37,7 +85,7 @@
   <entry>
     <id>b5ba8908-d1d6-11ea-b0a5-0d17517ce0b6</id>
     <title>🔒 - Hier wird am Dienstag in Leipzig geblitzt</title>
-    <updated>2022-04-26T08:46:32.314755+00:00</updated>
+    <updated>2022-04-26T14:41:18.920828+00:00</updated>
     <author>
       <name>LVZ Methode</name>
       <email>mol-lvz@madsack.de</email>
@@ -49,7 +97,7 @@
   <entry>
     <id>6307d1fe-c142-11ec-b0e8-58a71e91ebd2</id>
     <title>🔒 - Diese Bauprojekte haben in Leipzig für viel Aufregung gesorgt</title>
-    <updated>2022-04-26T08:46:32.314627+00:00</updated>
+    <updated>2022-04-26T14:41:18.920699+00:00</updated>
     <author>
       <name>LVZ Methode</name>
       <email>mol-lvz@madsack.de</email>
@@ -61,7 +109,7 @@
   <entry>
     <id>9f310898-c48b-11ec-bd53-fda28e59ff86</id>
     <title>🔒 - Fontäne im Ex-Karstadt: Soll der Springbrunnen wieder sprudeln?</title>
-    <updated>2022-04-26T08:46:32.314501+00:00</updated>
+    <updated>2022-04-26T14:41:18.920568+00:00</updated>
     <author>
       <name>LVZ Methode</name>
       <email>mol-lvz@madsack.de</email>
@@ -73,7 +121,7 @@
   <entry>
     <id>1d204760-9d67-11ec-9f49-cafd3ee37605</id>
     <title>🔒 - Newsblog „Leipzig hilft“: Konzert des Kyiv Symphony Orchestra mit freiem Eintritt für Geflüchtete und weitere Angebote</title>
-    <updated>2022-04-26T08:46:32.314372+00:00</updated>
+    <updated>2022-04-26T14:41:18.920418+00:00</updated>
     <author>
       <name>LVZ Methode</name>
       <email>mol-lvz@madsack.de</email>
@@ -85,7 +133,7 @@
   <entry>
     <id>da33c75e-c487-11ec-bd53-fda28e59ff86</id>
     <title>🔒 - Flüchtlingsunterkunft auf der Leipziger Agra: In der Krise passt nicht immer alles perfekt</title>
-    <updated>2022-04-26T08:46:32.314244+00:00</updated>
+    <updated>2022-04-26T14:41:18.920284+00:00</updated>
     <author>
       <name>LVZ Methode</name>
       <email>mol-lvz@madsack.de</email>
@@ -97,7 +145,7 @@
   <entry>
     <id>c9118fa6-c487-11ec-bd53-fda28e59ff86</id>
     <title>🔒 - Aufschub auf der Agra: Leipzigs größte Ukraine-Unterkunft wird ab- und wieder aufgebaut</title>
-    <updated>2022-04-26T08:46:32.314110+00:00</updated>
+    <updated>2022-04-26T14:41:18.920145+00:00</updated>
     <author>
       <name>LVZ Methode</name>
       <email>mol-lvz@madsack.de</email>
@@ -109,7 +157,7 @@
   <entry>
     <id>bfaac4b8-c497-11ec-825e-f5cc19365745</id>
     <title>🔒 - Was die LVZ-Leserschaft zu Waffenlieferungen an die Ukraine und Julian Assange sagen</title>
-    <updated>2022-04-26T08:46:32.313951+00:00</updated>
+    <updated>2022-04-26T14:41:18.919950+00:00</updated>
     <author>
       <name>LVZ Methode</name>
       <email>mol-lvz@madsack.de</email>
