@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup as bs, Tag
 import feedparser
 from feedgen.feed import FeedGenerator
 from tinydb import TinyDB, Query
+import lxml.etree as etree
 
 feeds = [
     "http://www.lvz.de/rss/feed/lvz_leipzig",
@@ -33,6 +34,7 @@ def get_summary(url: str) -> Tuple[str, str]:
         plus_open = "pdb-parts-paidcontent-freeuntilbadge_open"
 
         prefix = "👀"
+
         if len(soup.findAll("span", {"class": plus_open})) > 0:
             prefix = "💸"
         elif len(soup.findAll("span", {"class": plus_close})) > 0:
@@ -111,7 +113,13 @@ def generate_feed(source_feed: FeedParserDict, db: TinyDB):
     for item in db.all():
         fg.add_entry(to_fe(item))
 
-    fg.atom_file(f"docs/{feed_id}_atom.xml")
+    with open(f"docs/{feed_id}_atom.xml", "w") as f:
+        x = etree.fromstring(fg.atom_str())
+        xs = etree.tostring(x, encoding='unicode', pretty_print=True)
+
+        f.write(xs)
+
+    # fg.atom_file(f"docs/{feed_id}_atom.xml")
 
 
 if __name__ == '__main__':
