@@ -32,11 +32,11 @@ def get_summary(url: str) -> Tuple[str, str]:
         plus_close = "pdb-parts-paidcontent-freeuntilbadge_close"
         plus_open = "pdb-parts-paidcontent-freeuntilbadge_open"
 
-        prefix = "free"
+        prefix = "👀"
         if len(soup.findAll("span", {"class": plus_open})) > 0:
-            prefix = "+ open"
+            prefix = "💸"
         elif len(soup.findAll("span", {"class": plus_close})) > 0:
-            prefix = "+ closed"
+            prefix = "🔒"
 
         print(prefix, url)
 
