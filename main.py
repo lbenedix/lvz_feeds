@@ -111,7 +111,7 @@ def generate_feed(source_feed: FeedParserDict, db: TinyDB):
     for item in db.all():
         fg.add_entry(to_fe(item))
 
-    fg.atom_file(f"{feed_id}_atom.xml")
+    fg.atom_file(f"docs/{feed_id}_atom.xml")
 
 
 if __name__ == '__main__':
