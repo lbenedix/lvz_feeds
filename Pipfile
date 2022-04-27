@@ -11,6 +11,7 @@ feedparser = "*"
 minify-html = "*"
 feedgen = "*"
 tinydb = "*"
+dynafile = "*"
 
 [dev-packages]
 black = "*"

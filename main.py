@@ -1,17 +1,17 @@
+import time
 from functools import lru_cache
 from typing import Tuple
 
+import feedparser
+import lxml.etree as etree
 import minify_html
-
 import requests
+from bs4 import BeautifulSoup as bs, Tag
+from dynafile import *
 from feedgen.entry import FeedEntry
+from feedgen.feed import FeedGenerator
 from feedparser import FeedParserDict
 from readability import Document
-from bs4 import BeautifulSoup as bs, Tag
-import feedparser
-from feedgen.feed import FeedGenerator
-from tinydb import TinyDB, Query
-import lxml.etree as etree
 
 feeds = [
     "http://www.lvz.de/rss/feed/lvz_leipzig",
@@ -76,12 +76,11 @@ def to_fe(item: dict) -> FeedEntry:
     return fe
 
 
-def get_items(source_feed: FeedParserDict, db: TinyDB):
+def get_items(source_feed: FeedParserDict, db: Dynafile):
     print('📖 getting all items', source_feed.href)
 
     for entry in source_feed.entries:
-        Item = Query()
-        if len(db.search(Item.guid == entry.guid)) > 0:
+        if db.get_item(key={"PK": entry.guid, "SK": entry.guid}) is not None:
             print('skip')
             continue
 
@@ -94,6 +93,8 @@ def get_items(source_feed: FeedParserDict, db: TinyDB):
         title = f'{prefix} - {entry.title}'
 
         item = {
+            "PK": entry.guid,
+            "SK": entry.guid,
             "guid": entry.guid,
             "title": title,
             "link": entry.link,
@@ -101,16 +102,17 @@ def get_items(source_feed: FeedParserDict, db: TinyDB):
             "author": entry.authors[0],
             "published": entry.published,
             "status": prefix,
+            "ttl": time.time() + 604800,
         }
-        db.insert(item)
+        db.put_item(item=item)
 
 
-def generate_feed(source_feed: FeedParserDict, db: TinyDB):
+def generate_feed(source_feed: FeedParserDict, db: Dynafile):
     print('📝 generating feed', source_feed.href)
 
     fg = setup_feed(source_feed, source_feed.href)
 
-    for item in db.all():
+    for item in db.scan():
         fg.add_entry(to_fe(item))
 
     with open(f"docs/{feed_id}_atom.xml", "w") as f:
@@ -128,7 +130,8 @@ if __name__ == '__main__':
         print(feed_url)
 
         feed_id = feed_url.split('/')[-1]
-        db = TinyDB(f'{feed_id}.json')
+        db = Dynafile(path=f"{feed_id}", pk_attribute="PK", sk_attribute="SK", ttl_attribute="ttl")
+
         source_feed = feedparser.parse(feed_url)
 
         get_items(source_feed, db)
