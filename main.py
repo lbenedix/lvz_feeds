@@ -86,7 +86,7 @@ def get_items(source_feed: FeedParserDict, db: Dynafile):
 
         prefix, summary = get_summary(entry.link)
 
-        if prefix == '+ closed':
+        if prefix == '🔒':
             print('skip paywall')
             continue
 

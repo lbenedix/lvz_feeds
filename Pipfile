@@ -12,6 +12,8 @@ minify-html = "*"
 feedgen = "*"
 tinydb = "*"
 dynafile = "*"
+influxdb = "*"
+paho-mqtt = "*"
 
 [dev-packages]
 black = "*"
