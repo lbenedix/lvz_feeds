@@ -116,7 +116,7 @@ def generate_feed(source_feed: FeedParserDict, db: Dynafile, output_path: str):
     for item in db.scan():
         fg.add_entry(to_fe(item))
 
-    with open(f"{path}/docs/{feed_id}_atom.xml", "w") as f:
+    with open(f"{path}/{feed_id}_atom.xml", "w") as f:
         x = etree.fromstring(fg.atom_str())
         xs = etree.tostring(x, encoding='unicode', pretty_print=True)
 
@@ -135,7 +135,7 @@ if __name__ == '__main__':
         print(feed_url)
 
         feed_id = feed_url.split('/')[-1]
-        db = Dynafile(path=f"{path}/{feed_id}", pk_attribute="PK", sk_attribute="SK", ttl_attribute="ttl")
+        db = Dynafile(path=f"{path}/.db/{feed_id}", pk_attribute="PK", sk_attribute="SK", ttl_attribute="ttl")
 
         source_feed = feedparser.parse(feed_url)
 
