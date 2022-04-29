@@ -1,0 +1,13 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de-DE">
+  <id>https://www.lvz.de/rss/feed/lvz_leipzig</id>
+  <title>LVZ.de - Alle Meldungen aus dem Ressort Leipzig</title>
+  <updated>2022-04-29T07:25:40+00:00</updated>
+  <author>
+    <name>Content Synchronisierung</name>
+    <email>mol-lvz@madsack.de</email>
+  </author>
+  <link href="http://www.lvz.de/" rel="alternate"/>
+  <link href="https://www.lvz.de/rss/feed/lvz_leipzig" rel="self"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
+  <logo>https://www.lvz.de/bundles/molasset/images/sites/desktop/lvz/apple-touch-icon.png</logo>
+</feed>
