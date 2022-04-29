@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de-DE">
   <id>https://www.lvz.de/rss/feed/lvz_region</id>
   <title>LVZ.de - Alle Meldungen aus dem Ressort Region</title>
-  <updated>2022-04-29T07:25:25+00:00</updated>
+  <updated>2022-04-29T08:07:59+00:00</updated>
   <author>
     <name>Content Synchronisierung</name>
     <email>mol-lvz@madsack.de</email>
@@ -11,9 +11,21 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <logo>https://www.lvz.de/bundles/molasset/images/sites/desktop/lvz/apple-touch-icon.png</logo>
   <entry>
+    <id>3fcd06a6-c6f0-11ec-825e-f5cc19365745</id>
+    <title>💸 - Wie die Kirche in Waldheim auf die Facebook-Affäre reagiert</title>
+    <updated>2022-04-29T08:16:38.864294+00:00</updated>
+    <author>
+      <name>LVZ Methode</name>
+      <email>mol-lvz@madsack.de</email>
+    </author>
+    <link href="http://www.lvz.de/Region/Doebeln/Doebeln-Kirche-in-Waldheim-reagiert-auf-Facebook-Affaere" rel="alternate"/>
+    <summary>&lt;p&gt;&lt;a class=pdb-article-link href=/Region/Doebeln/Doebeln-Mord-und-Totschlag-im-Kirchen-Facebook-ueberrascht-Pfarrer&gt;Die Kirche hat auf die Facebook-Affäre reagiert&lt;/a&gt;. „Wir gehen davon aus, dass unser Profil gehackt wurde. Wir haben Strafanzeige gegen Unbekannt gestellt und Facebook angeschrieben. Sollte sowas wieder vorkommen, werden wir uns von Facebook zurückziehen“, sagt Pfarrer Reinald Richber.&lt;/p&gt;&lt;a id=eztoc_1_1&gt;&lt;/a&gt;&lt;h2&gt;Nutzer sollen Post nicht folgen&lt;/h2&gt;&lt;p&gt;Aktuell ist auf der Seite der Kirchgemeinde Waldheim-Geringswalde in dem sozialen Netzwerk ein Hinweis zu sehen. Darin heißt es, dass die Seite gehackt – diese also Dritter widerrechtlich übernommen hat – wurde und die Nutzer dem Post „Waldheim: 15-Jähriger erwürgt seine Schwester“ nicht folgen sollen. Ein solches Verbrechen hat es in Waldheim aber nicht gegeben. Recherchen von &lt;a class=pdb-article-link href=/Region/Doebeln&gt;lvz.de&lt;/a&gt; ergaben zudem, das der geteilte Inhalt Teil einer Methode ist, um Zugangsdaten von Facebook-Nutzern abzugreifen.&lt;/p&gt;&lt;a id=eztoc_2_1&gt;&lt;/a&gt;&lt;h2&gt;In anderen Gruppen sofort gelöscht&lt;/h2&gt;&lt;p&gt;Die fragwürdigen und für eine Kirchgemeinde völlig untypischen Beiträge waren in einer Unterseite des Facebook-Angebots der Gemeinde aufgetaucht. Zudem hatte sie das Profil in die Waldheim-Gruppe geteilt, die mit der Kirche nichts zu tun hat. In dieser geschlossenen Gruppe tauschen sich Menschen aus Waldheim und Umgebung über Dinge aus, die in der Stadt geschehen. Die Administratoren dieser Gruppe hatten die fragwürdigen Mord-und-Totschlag-Inhalte umgehend gelöscht.&lt;p&gt;&lt;em&gt;Von Dirk Wurzel&lt;/em&gt;</summary>
+    <published>2022-04-29T08:03:06+00:00</published>
+  </entry>
+  <entry>
     <id>88fe7fd6-c785-11ec-a910-e27c73d29e3d</id>
     <title>💸 - Brand in Altenburger Pflegeheim fordert ein Todesopfer</title>
-    <updated>2022-04-29T07:30:29.431152+00:00</updated>
+    <updated>2022-04-29T08:16:38.864025+00:00</updated>
     <author>
       <name>LVZ Methode</name>
       <email>mol-lvz@madsack.de</email>
@@ -23,9 +35,21 @@
     <published>2022-04-29T06:57:00+00:00</published>
   </entry>
   <entry>
+    <id>1fa710fa-c6dd-11ec-bd53-fda28e59ff86</id>
+    <title>💸 - Chaos bei der Gebührenerhöhung in Meuselwitz war schädlich</title>
+    <updated>2022-04-29T08:16:38.863753+00:00</updated>
+    <author>
+      <name>LVZ Methode</name>
+      <email>mol-lvz@madsack.de</email>
+    </author>
+    <link href="http://www.lvz.de/Region/Altenburg/Chaos-bei-der-Gebuehrenerhoehung-in-Meuselwitz-war-schaedlich" rel="alternate"/>
+    <summary>&lt;p&gt;Der Krach im Meuselwitzer Stadtrat &lt;a class=pdb-article-link href=/Region/Altenburg/So-viel-muessen-die-Meuselwitzer-rueckwirkend-fuer-Trinkwasser-und-Abwasser-bezahlen&gt;um die Gebührenerhöhung bei Trink- und Abwasser&lt;/a&gt; war absehbar. Nicht so sehr, weil nun – neben Strom, Gas und Sprit – das wichtigste Lebensmittel teurer wird. Sondern, weil die Vorbereitung und Diskussion dieser Steigerung holterdiepolter vonstattenging. Das begann schon damit, dass die meisten Stadträte im vergangenen Jahr gar nicht wussten, dass ihre Stadtwerke eine Gebührenerhöhung längst vorbereiteten und dies aus der Zeitung erfuhren.&lt;/p&gt;&lt;a id=eztoc_1_1&gt;&lt;/a&gt;&lt;h2&gt;Seltsame Entscheidungen&lt;/h2&gt;&lt;p&gt;Hinzu kam, dass das Landratsamt auf eine neue Kalkulation drängte und darauf, dass diese eine auswärtige Firma erstellen soll – gegen den Willen von Meuselwitzer Volksvertretern. Die angefragte Firma wiederum signalisierte rechtzeitig, wegen gleicher Aufträge für andere Stadtwerke und Verbände bereits völlig überlastet zu sein. Sie wurde dennoch beauftragt, was ziemlich wirr erscheint und wiederum Zeit kostete. Diese fehlte dann folgerichtig, damit sich die Stadträte umfassend mit der Materie vertraut machen und Alternativen beraten konnten – so wie es sich gehört, wenn es um das Geld der Bürgerinnen und Bürger geht.&lt;/p&gt;&lt;a id=eztoc_2_1&gt;&lt;/a&gt;&lt;h2&gt;Keine Blumen für den Spitzenreiter&lt;/h2&gt;&lt;p&gt;Ein weiteres Paradebeispiel von Intransparenz, Eigenmächtigkeiten und Zeitverschwendung. Das Ergebnis konnte man am Mittwoch zur Stadtratssitzung sehen, bei dem der Eindruck entstand, dass einige Volksvertreter das erste Mal erfuhren oder erfahren wollten, welche finanziellen Auswirkungen beide Beschlüsse auf ihre Bürgerinnen und Bürger haben werden, die sie sodann gleich fassen wollten.&lt;p&gt;Eine bemerkenswerte Leistung an der Schnauder ging dabei fast unter. Nämlich die, dass man die Gebühren seit 18 Jahren stabil und auch relativ niedrig halten konnte. Im Umkehrschluss bedeutet dies natürlich, dass wegen der vielen steigenden Kosten es nun auch in Meuselwitz unumgänglich war, die Gebühren anzupassen. Im Großen und Ganzen geschieht dies sogar vergleichsweise moderat. Alles in allem ist die Stadt im Landkreis kein Spitzenreiter. Diesen Platz behalten Schmölln und die Gemeindewerke Oberes Sprottental. Blumen dafür gibt’s keine.&lt;p&gt;&lt;em&gt;Von Jens Rosenkranz&lt;/em&gt;</summary>
+    <published>2022-04-29T07:34:00+00:00</published>
+  </entry>
+  <entry>
     <id>b30a115e-c704-11ec-bd53-fda28e59ff86</id>
     <title>💸 - Beim Brötchenkauf in Laas gibt es Lesestoff vom THW dazu</title>
-    <updated>2022-04-29T07:30:29.430858+00:00</updated>
+    <updated>2022-04-29T08:16:38.863481+00:00</updated>
     <author>
       <name>LVZ Methode</name>
       <email>mol-lvz@madsack.de</email>
@@ -37,7 +61,7 @@
   <entry>
     <id>7439b472-c6ee-11ec-a910-e27c73d29e3d</id>
     <title>💸 - Eilenburger Kirchenmusik startet wieder – das ist geplant</title>
-    <updated>2022-04-29T07:30:29.430531+00:00</updated>
+    <updated>2022-04-29T08:16:38.863204+00:00</updated>
     <author>
       <name>LVZ Methode</name>
       <email>mol-lvz@madsack.de</email>
@@ -45,5 +69,29 @@
     <link href="http://www.lvz.de/Region/Eilenburg/Eilenburger-Kirchenmusik-startet-wieder-das-ist-geplant" rel="alternate"/>
     <summary>&lt;p&gt;Mit dem Konzert des Jungen Bläserkreises Mitteldeutschland startet am Sonnabend um 18 Uhr in der Marienkirche die Kirchenmusikreihe der Evangelischen Kirche Eilenburg. Dem Ensemble gehören 15 junge Bläserinnen und Bläser aus Posaunenchören der Evangelischen Kirche Mitteldeutschland an. Zum Repertoire gehören meditative Klänge, Gospelmusik, Pop- Balladen und klassische Bläserliteratur. In Eilenburg werden unter anderem Werke von Vivaldi, Debussy und Reinhard Mey erklingen. Der Eintritt ist frei. Es wird um eine Kollekte gebeten.&lt;/p&gt;&lt;a id=eztoc_1_1&gt;&lt;/a&gt;&lt;h2&gt;Weihnachtsoratorium am Ende des Jahres geplant&lt;/h2&gt;&lt;p&gt;Im Laufe des Jahres sind weitere Events geplant. Höhepunkt dürfte die Aufführung des Weihnachtsoratoriums (1–3) mit Martin-Rinckart-Kantorei, Chorgästen, Mitteldeutschem Kammerorchester und Solisten sein. Die Entscheidung, das Projekt trotz zweimaliger Verschiebung erneut anzugehen, sei mit den Musikern gemeinsam gefallen, so Lena Ruddies. Zwar räumt die Kantorin ein: Auf etwas hinzuarbeiten, das vielleicht nicht stattfinde, sorge schon für Frust bei allen Beteiligten. Die Vorfreude auf die Proben und die Hoffnung, dass alles stattfinden kann, seien aber da.&lt;/p&gt;&lt;a id=eztoc_2_1&gt;&lt;/a&gt;&lt;h2&gt;Popmesse am Tag der Einheit auf dem Burgberg&lt;/h2&gt;&lt;p&gt;Erstmals für einen Auftritt binden konnte Ruddies die Bigband der Musikschule Heinrich Schütz, die am 11. Juni mit Martin-Rinckart-Kantorei und Rinckart-Popchor in St. Nikolai Rock- und Jazzstandards, Teile aus der Messe des Friedens von Reimund Hess präsentieren. Premiere in Eilenburg feiert das Orchester „Klänge der Hoffnung“, das am 15. Mai in der Nikolaikirche gastiert. Zum Ensemble gehören 40 Musiker/innen aus Leipzig und Umgebung, die in verschiedenen Ländern aufgewachsen sind – so im Iran, in der Türkei, in Syrien, Deutschland, Mexiko, Kolumbien, Armenien, Venezuela, Argentinien, Italien und Guinea. Am Stadtfestsonntag wird das Kindermusical „Nach uns die Sintflut“ aufgeführt. Dabei sind Singschule, Musical-Mäuse, Grundschule Jesewitz sowie ein Kammerorchester. Am 3. Oktober gibt es zum zweiten Mal die Popmesse – diesmal auf dem Burgberg und als Gemeinschaftsaktion mit dem Burgverein, der zum Kinderfest einlädt. 10 Uhr startet die Open-air-Andacht mit der „Messe des Friedens“. ka&lt;p&gt;www.kirchenmusik-eilenburg.de/Konzertreihe.htm&lt;p&gt;&lt;em&gt;Von ka&lt;/em&gt;</summary>
     <published>2022-04-29T07:20:00+00:00</published>
+  </entry>
+  <entry>
+    <id>4841d6ee-c787-11ec-bd53-fda28e59ff86</id>
+    <title>💸 - Grimma: Stadtrat gedenkt des Mitglieds und Arztes Thomas Zeidler</title>
+    <updated>2022-04-29T08:16:38.862928+00:00</updated>
+    <author>
+      <name>LVZ Methode</name>
+      <email>mol-lvz@madsack.de</email>
+    </author>
+    <link href="http://www.lvz.de/Region/Grimma/Grimma-Stadtrat-gedenkt-des-Mitglieds-und-Arztes-Thomas-Zeidler" rel="alternate"/>
+    <summary>&lt;p&gt;Sein Platz blieb leer, als Grimmas Stadtrat am Donnerstag zur turnusmäßigen Sitzung zusammen kam. Ein ﻿Foto mit schwarzem Band und eine Rose mit Trauerflor erinnerten daran, dass hier viele Jahre Dr. Thomas Zeidler saß und in die Debatten eingriff. Der stadtbekannte Arzt und Stadtrat war am Montag im Alter von 64 Jahren unerwartet gestorben. Die Stadträte erhoben sich zu einer Schweigeminute und gedachten des Mannes, der dem Gremium seit 2009 angehörte und seit 2019 die Fraktion „Bürger für Grimma/Allianz Stadt &amp; Land“ anführte.&lt;div&gt;&lt;div class=pdb-embedimage&gt;&lt;div class=pdb-embedimage-caption&gt;&lt;p class=pdb-embedimage-caption-content&gt;Der Platz von Dr. Thomas Zeidler im Grimmaer Stadtrat blieb am Donnerstag leer. &lt;span class=pdb-embedimage-caption-copyright data-js-ajax-copyright&gt;Quelle: Thomas Kube&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;a id=eztoc_1_1&gt;&lt;/a&gt;&lt;h2&gt;Oberbürgermeister: Für seine Klarheit bewundert&lt;/h2&gt;&lt;p&gt;Die Sitzung stehe unter einem traurigen Vorzeichen, sagte Grimmas Oberbürgermeister Matthias Berger (parteilos). Er sei tief betroffen über das, was am Montag geschehen sei. Er habe an Thomas Zeidler immer bewundert, wie er mit großer Klarheit, Schärfe, Strukturiertheit und Ideologiefreiheit aufgetreten sei und in wenigen Sätzen manche komplexe Angelegenheiten auf den Punkt gebracht habe, sagte Berger.&lt;/p&gt;&lt;a id=eztoc_2_1&gt;&lt;/a&gt;&lt;h2&gt;Lesen Sie auch:&lt;/h2&gt;&lt;p&gt;&lt;a class=pdb-article-link href=/Region/Grimma/Grimmaer-Stadtrat-Thomas-Zeidler-gestorben&gt;Weggefährten würdigen das Lebenswerk des verstorbenen Grimmaer Arztes und Stadtrates Dr. Thomas Zeidler. &lt;/a&gt;&lt;/p&gt;&lt;a id=eztoc_3_1&gt;&lt;/a&gt;&lt;h2&gt;Fraktion: Ehrlicher und zuverlässiger Kommunalpolitiker&lt;/h2&gt;&lt;p&gt;Für die Fraktion würdigte Steffen Kretschmar (Bürger für Grimma) den Verstorbenen. Sein Tod sei ein schmerzlicher Verlust für die Fraktion. Thomas Zeidler sei ein ehrlicher und zuverlässiger Kommunalpolitiker gewesen, „in dem, was er sagte, immer offen und klar und an der Sache orientiert“. Polemik sei nie sein Thema gewesen, so Kretschmar. „Wir werden unsere Arbeit in seinem Sinne fortsetzen.“ Es bleibe nur, seiner Familie „unser tief empfundenes Mitgefühl auszudrücken“.&lt;p&gt;&lt;em&gt;Von Frank Prenzel&lt;/em&gt;</summary>
+    <published>2022-04-29T07:46:48+00:00</published>
+  </entry>
+  <entry>
+    <id>98b35d22-c49a-11ec-825e-f5cc19365745</id>
+    <title>💸 - Endlich ein Lichtblick für festsitzende Geflüchtete in Rötha: Erste Menschen aus der Ukraine registriert</title>
+    <updated>2022-04-29T08:16:38.862633+00:00</updated>
+    <author>
+      <name>LVZ Methode</name>
+      <email>mol-lvz@madsack.de</email>
+    </author>
+    <link href="http://www.lvz.de/Region/Borna/Pension-Roetha-Endlich-Lichtblick-fuer-festsitzende-Ukrainer" rel="alternate"/>
+    <summary>&lt;p&gt;Sie wollen raus, ﻿sie wollen keine Sozialleistungen beziehen, sie wollen arbeiten: &lt;a class=pdb-article-link href=/Leipzig/Lokales/Sachsen-Gefluechtete-warten-seit-Wochen-auf-Registrierung&gt;Rund 200 Ukrainerinnen und Ukrainer hingen teils weit über einen Monat in Rötha (Landkreis Leipzig) fest&lt;/a&gt;; bei vielen lagen die Nerven blank. Hauptkritik: Die für Arbeitsaufnahme und Wohnungssuche so wichtige Registrierung finde nicht statt. Und es gebe keinerlei Informationen darüber, wann und wie es weitergeht. &lt;a class=pdb-article-link href=/Leipzig/Lokales/Sachsen-Gefluechtete-warten-seit-Wochen-auf-Registrierung target=_blank&gt;Die zuständige Landesdirektion Sachsen hatte Mitte April eine Verbesserung der Situation angekündigt.&lt;/a&gt; Nun vermeldete die Behörde: 136 der Kriegsflüchtlinge konnten am Donnerstag dem Landkreis Leipzig übergeben werden.&lt;/p&gt;&lt;a id=eztoc_1_1&gt;&lt;/a&gt;&lt;h2&gt;„Wir möchten Steuern zahlen“&lt;/h2&gt;&lt;p&gt;Anfang dieser Woche war bei den Bewohnern von Optimismus noch keine Spur. „Wir sind sehr dankbar für alles hier – für das Dach über dem Kopf, für das Essen“, erzählte Oksana bei einem Vor-Ort-Termin in der Pension Rötha am Montag. „Aber so integrieren wir uns nicht, wir möchten arbeiten und Steuern zahlen.“ Die 41-Jährige ist mit ihren Kindern (13 und sechs Jahre alt) aus Kiew geflüchtet und lebt seit dem 7. März in Rötha. Oksana war in der ukrainischen Hauptstadt in der Immobilienwirtschaft tätig. „Ich bin Angehöriger eines anderen Staates – ich weiß nicht, was ich darf und was nicht“, konstatierte Olena (45), die mit ihrer Oma (80) und den beiden Kindern (15 und 24) aus dem Donbass geflohen ist und seit einem Monat in der Pension lebt. Sie sei deshalb auf Informationen angewiesen, die sie jedoch nicht bekommen habe. Wie, wann und wohin geht es weiter?&lt;p&gt;Auf diese Fragen habe es keinerlei Auskunft gegeben. Dabei, erzählte die Grundschullehrerin, haben sie sowie ihre ältere Tochter, die ebenfalls Lehrerin ist, sogar schon Arbeitsmöglichkeiten in Dresden und Chemnitz in Aussicht. „Wir wollen niemandem zur Last fallen“, sagte auch Mila, „wir wollen für unser eigenes Leben sorgen.“ Krankenschwester Swetlana, die mit ihrem 13 Jahre alten Kind aus Kiew geflüchtet ist, würde ebenfalls gern sofort etwas Sinnvolles tun. Oder Ainudyn (67), der Ingenieur aus Charkiw. Oder Mohamed (46), der Koch aus Odessa.&lt;p&gt;Die Landesdirektion hatte gegenüber der LVZ bereits am 13. April mitgeteilt, dass sich die vom Freistaat untergebrachten Kriegsflüchtlinge aus der Ukraine nicht selbst um ihre Registrierung kümmern müssen. Dieser formale Akt ist die Voraussetzung für die Anmietung einer eigenen Wohnung oder für einen Arbeitsvertrag. Allerdings habe die nötige Technik in den ersten Wochen zum Teil gefehlt, so die Landesdirektion. Der Engpass sei jedoch später „durch die Zuführung von Technik und Personal“ teilweise behoben worden. In Rötha finde die Registrierung „gegenwärtig“ statt und werde „demnächst auch abgeschlossen“, so die Aussage vor zwei Wochen.&lt;/p&gt;&lt;a id=eztoc_2_1&gt;&lt;/a&gt;&lt;h2&gt;Verzögerung bei den Dokumenten&lt;/h2&gt;&lt;p&gt;Immerhin: Das scheint nun geklappt zu haben. Inzwischen seien die 207 untergebrachten Ukrainerinnen und Ukrainer registriert, teilte die Landesdirektion am Donnerstag mit. Nur einige wenige hätten sich dem Verfahren entzogen. Allerdings habe sich die darauf folgende Erstellung und Ausreichung von Dokumenten verzögert, die eine Verteilung an die Landkreise und Kreisfreien Städte erst möglich macht.&lt;p&gt;Nachdem aber auch dieses Problem behoben worden sei, hätten am Donnerstag 136 Ukrainerinnen und Ukrainer dem Landkreis Leipzig zur Unterbringung übergeben werden können. Für den 12. Mai sei die Weiterleitung von weiteren 45 Personen geplant. Die Landesdirektion betreut für den Freistaat noch weitere Aufnahmeeinrichtungen. In Leipzig seien noch Registrierungen zu erledigen, in Chemnitz und Dresden seien sie weitestgehend abgeschlossen. Allerdings müssten neu hinzukommende Schutzsuchende in den Aufnahmeeinrichtungen fortlaufend weiter registriert werden.&lt;p&gt;Den Vorwurf mangelnder Kommunikation weist die Behörde zurück. Anfragen und Probleme, die die Mitarbeiterinnen und Mitarbeiter des Betreibers nicht lösen können, würden durch die Landesdirektion geklärt. Darüber hinaus seien Plakate zum Ablauf des Verfahrens der Registrierung und zur Verteilung in den Einrichtungen angebracht worden.&lt;p&gt;&lt;em&gt;Von Björn Meine&lt;/em&gt;</summary>
+    <published>2022-04-29T08:00:00+00:00</published>
   </entry>
 </feed>

@@ -1,4 +1,5 @@
 import time
+import sys
 from functools import lru_cache
 from typing import Tuple
 
@@ -107,7 +108,7 @@ def get_items(source_feed: FeedParserDict, db: Dynafile):
         db.put_item(item=item)
 
 
-def generate_feed(source_feed: FeedParserDict, db: Dynafile):
+def generate_feed(source_feed: FeedParserDict, db: Dynafile, output_path: str):
     print('📝 generating feed', source_feed.href)
 
     fg = setup_feed(source_feed, source_feed.href)
@@ -115,7 +116,7 @@ def generate_feed(source_feed: FeedParserDict, db: Dynafile):
     for item in db.scan():
         fg.add_entry(to_fe(item))
 
-    with open(f"docs/{feed_id}_atom.xml", "w") as f:
+    with open(f"{path}/docs/{feed_id}_atom.xml", "w") as f:
         x = etree.fromstring(fg.atom_str())
         xs = etree.tostring(x, encoding='unicode', pretty_print=True)
 
@@ -126,13 +127,17 @@ def generate_feed(source_feed: FeedParserDict, db: Dynafile):
 
 if __name__ == '__main__':
 
+    path = '.'
+    if len(sys.argv) > 1:
+        path = sys.argv[1]
+
     for feed_url in feeds:
         print(feed_url)
 
         feed_id = feed_url.split('/')[-1]
-        db = Dynafile(path=f"{feed_id}", pk_attribute="PK", sk_attribute="SK", ttl_attribute="ttl")
+        db = Dynafile(path=f"{path}/{feed_id}", pk_attribute="PK", sk_attribute="SK", ttl_attribute="ttl")
 
         source_feed = feedparser.parse(feed_url)
 
         get_items(source_feed, db)
-        generate_feed(source_feed, db)
+        generate_feed(source_feed, db, path)
