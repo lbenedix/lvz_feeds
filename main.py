@@ -2,7 +2,6 @@ import time
 import sys
 from functools import lru_cache
 from typing import Tuple
-
 import feedparser
 import lxml.etree as etree
 import minify_html
@@ -26,7 +25,7 @@ def get_tag_html(tag: Tag):
 
 
 @lru_cache
-def get_summary(url: str) -> Tuple[str, str]:
+def get_summary(url: str) -> Tuple[str, str, str]:
     response = requests.get(url)
 
     try:
@@ -43,12 +42,15 @@ def get_summary(url: str) -> Tuple[str, str]:
 
         print(prefix, url)
 
+        soup = bs(response.text,"html.parser")
+        image = soup.head.find('meta', {"name": "twitter:image"}).attrs['content']
+
         doc = Document(response.text)
         soup = bs(doc.summary(), "html.parser")
         summary = get_tag_html(soup.find(name="div", attrs={"class": "pdb-richtext-field"}))
-        return prefix, minify_html.minify(summary)
+        return prefix, minify_html.minify(summary), image
     except:
-        return prefix, ""
+        return prefix, "", ""
 
 
 def setup_feed(source_feed, url) -> FeedGenerator:
@@ -74,6 +76,8 @@ def to_fe(item: dict) -> FeedEntry:
     fe.summary(item['summary'], type="html")
     fe.author(item['author'])
     fe.published(item['published'])
+    if 'image' in item:
+        fe.enclosure(item['image'], 0, "image/jpeg")
     return fe
 
 
@@ -85,7 +89,7 @@ def get_items(source_feed: FeedParserDict, db: Dynafile):
             print('skip')
             continue
 
-        prefix, summary = get_summary(entry.link)
+        prefix, summary, image = get_summary(entry.link)
 
         if prefix == '🔒':
             print('skip paywall')
@@ -104,6 +108,7 @@ def get_items(source_feed: FeedParserDict, db: Dynafile):
             "published": entry.published,
             "status": prefix,
             "ttl": time.time() + 604800,
+            "image": image,
         }
         db.put_item(item=item)
 
