@@ -71,7 +71,7 @@ def to_fe(item: dict) -> FeedEntry:
     fe.id(item['guid'])
     fe.title(item['title'])
     fe.link(href=item['link'])
-    fe.summary(item['summary'])
+    fe.summary(item['summary'], type="html")
     fe.author(item['author'])
     fe.published(item['published'])
     return fe
