@@ -14,9 +14,10 @@ from feedparser import FeedParserDict
 from readability import Document
 
 feeds = [
-    "http://www.lvz.de/rss/feed/lvz_leipzig",
-    "http://www.lvz.de/rss/feed/lvz_region",
-    "http://www.lvz.de/rss/feed/lvz_kultur",
+    "https://www.lvz.de/arc/outboundfeeds/rss/tags_slug/leipzig",
+    "https://www.lvz.de/arc/outboundfeeds/rss/category/mitteldeutschland",
+    "https://www.lvz.de/arc/outboundfeeds/rss/category/kultur/regional",
+    "https://www.lvz.de/arc/outboundfeeds/rss/category/lokales/nordsachsen/delitzsch",
 ]
 
 
@@ -57,7 +58,7 @@ def setup_feed(source_feed, url) -> FeedGenerator:
     fg = FeedGenerator()
     fg.id(url)
     fg.title(source_feed.feed.title)
-    fg.author(source_feed.feed.authors[0])
+    # fg.author({"name": ""})
     fg.link(href=source_feed.feed.link, rel='alternate')
     fg.logo('https://www.lvz.de/bundles/molasset/images/sites/desktop/lvz/apple-touch-icon.png')
     fg.subtitle(source_feed.feed.subtitle)
@@ -74,7 +75,7 @@ def to_fe(item: dict) -> FeedEntry:
     fe.title(item['title'])
     fe.link(href=item['link'])
     fe.summary(item['summary'], type="html")
-    fe.author(item['author'])
+    # fe.author(item['author'])
     fe.published(item['published'])
     if 'image' in item:
         fe.enclosure(item['image'], 0, "image/jpeg")
@@ -97,6 +98,12 @@ def get_items(source_feed: FeedParserDict, db: Dynafile):
 
         title = f'{prefix} - {entry.title}'
 
+        author = ''
+        try:
+            author = entry.author
+        except:
+            print('🤯')
+
         item = {
             "PK": entry.guid,
             "SK": entry.guid,
@@ -104,7 +111,7 @@ def get_items(source_feed: FeedParserDict, db: Dynafile):
             "title": title,
             "link": entry.link,
             "summary": summary,
-            "author": entry.authors[0],
+            "author": author,
             "published": entry.published,
             "status": prefix,
             "ttl": time.time() + 604800,
